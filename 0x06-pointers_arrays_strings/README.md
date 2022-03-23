@@ -1,4 +1,4 @@
-0-strcat.c concatenates two strings.
+0-strcat.c concatenates two strings
 
 1-strncat.c	concatenates two strings, using n bytes from src
 
