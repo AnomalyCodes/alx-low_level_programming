@@ -38,7 +38,7 @@ void _is_zero(char *argv[])
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
-*
+ *
  * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
 				if (add > 9)
 					nout[k - 1] = (add / 10) + '0';
 				nout[k] = (add % 10) + '0';
-}
+			}
 			i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
 		}
 		if (j < 0)
