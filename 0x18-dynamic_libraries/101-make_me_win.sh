@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -P /tmp https://github.com/AnomalyCodes/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
+wget -P /tmp https://github.com/AnomalyCodes/alx-low_level_programming/main/0x18-dynamic_libraries/nrandom.so
 export LD_PRELOAD=/tmp/nrandom.so
 
